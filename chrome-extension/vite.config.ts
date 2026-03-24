@@ -5,16 +5,16 @@ import react from "@vitejs/plugin-react";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+/** Day 1: popup bundle only. Day 2 adds content + background entries and manifest fields. */
 export default defineConfig({
   plugins: [react()],
+  publicDir: "public",
   build: {
     outDir: "dist",
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        popup: resolve(__dirname, "popup.html"),
-        content: resolve(__dirname, "src/content/content.ts"),
-        background: resolve(__dirname, "src/background/background.ts")
+        popup: resolve(__dirname, "popup.html")
       },
       output: {
         entryFileNames: "assets/[name].js",

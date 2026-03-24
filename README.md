@@ -55,3 +55,5 @@ npm run build
 ```
 
 Then load `chrome-extension/dist` as an unpacked extension in Chrome.
+
+**Day 1:** popup-only extension (no host permissions). **Day 2** adds the content script and related manifest fields.
