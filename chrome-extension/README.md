@@ -13,7 +13,10 @@ This folder contains the extension UI and browser-side scripts.
 
 ```bash
 npm install
+npm run typecheck
 npm run build
 ```
 
 Load `dist/` as an unpacked extension in Chrome.
+
+Stack: **React + Vite + TypeScript + Tailwind CSS**.

@@ -4,7 +4,7 @@ Chrome extension + Go backend project to extract study content from documents an
 
 ## Repository Structure
 
-- `chrome-extension/`: React + Vite extension app (Manifest v3)
+- `chrome-extension/`: React + Vite + TypeScript extension app (Manifest v3)
 - `backend/`: Go API and summarization pipeline
 - `docs/`: Architecture and API notes
 - `PLAN.md`: 8-day sprint execution plan
